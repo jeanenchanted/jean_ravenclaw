@@ -1,0 +1,32 @@
+/* bubbles */
+
+.bubble {
+  transition-duration: 0.7s;
+}
+
+.bubble:hover {
+  transition-duration: 0.7s;
+}
+
+/* title */
+
+.bubble.title{
+  transition-duration: 2.5s;
+  font-size: 10vw;
+}
+
+.bubble.title:hover {
+  transition-duration: 1.4s;
+  font-size: 4vw;
+}
+
+/* title 2 */
+.bubble.title2 {
+  transition-duration: 2.5s;
+  font-size: 8vw;
+}
+
+.bubble.title2:hover {
+	transition-duration: 1.4s;
+  font-size: 3vw;
+}

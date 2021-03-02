@@ -1,0 +1,53 @@
+*{
+scroll-behavior: smooth !important;
+}
+
+html {
+  font-size: 130%;
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1438&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: var(--text-main);
+  margin: 0px;
+  text-shadow: var(--shadow);
+  padding: 0px;
+}
+
+/* Page content */
+.content {
+  scroll-margin-top: 1em;
+  padding: 0px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
